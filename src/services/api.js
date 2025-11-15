@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'http://vero.pythonanywhere.com';
 
 // base axios instance for JSON endpoints (adds Authorization via interceptor)
 const api = axios.create({
